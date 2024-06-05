@@ -1,0 +1,14 @@
+services:
+  userauth:
+    build:
+      context: ./userauth
+      dockerfile: Dockerfile
+    ports:
+      - "8000:80"
+
+  transactions:
+    build:
+      context: ./myfinance
+      dockerfile: Dockerfile
+    ports:
+      - "8001:80"

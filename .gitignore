@@ -1,0 +1,14 @@
+# Binaries
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.dotsettings
+
+# Environment-specific files
+appsettings.Development.json
+appsettings.Production.json
